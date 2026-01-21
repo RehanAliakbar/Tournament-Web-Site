@@ -21,6 +21,8 @@
             'darker': '#0A101F',
           },
           fontFamily: {
+            'orbiton': ['Orbiton', 'sans-serif'],
+            'exo': ['Exo 2', 'sans-serif'],
             
           }
         },
@@ -28,8 +30,25 @@
     }
    </script>
 </head>
-<body>
-  <h1 class="bg-primary">hello world</h1>
+<body class="dark">
+  <!-- Animated Background -->
+   <div class="animated-bg"></div>
+   <div class="grid-pattern"></div>
+   <!-- Navigation -->
+    <nav class="fixed w-full z-50 py-4 px-6 border-b border-gray-800/30">
+      <div class="max-w-7xl mx-auto flex justify-between items-center">
+        <!-- Logo -->
+         <a href="#home" class="flex items-center space-x-3 group">
+          <div class="logo-container w-12 h-12 rounded-full felx items-center justify-center ">
+            <div class="w-10 h-10 rounded-full bg-gradient-to-r form-primary to-secondary flex items-center justify-center z-10">
+              <i class="fas fa-crown text-white text-xl"></i>
+            </div>
+          </div>
+          <h1 class="text-2xl font-orbitron font-bold gradient-text group-hover:scale-105 transition-transform duration-300">NEXUS</h1>
+         </a>
+         <!-- Dekstop Menu -->
+      </div>
+    </nav>
   
   
 </body>
